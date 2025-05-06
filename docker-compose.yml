@@ -1,0 +1,9 @@
+version: '3'
+services:
+  react-app:
+    build: .
+    ports:
+      - "4000:4000"
+    container_name: c1
+    restart: always
+
